@@ -1,0 +1,143 @@
+html { box-sizing: border-box; font-family: 'Source Sans Pro', sans-serif;}
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ sede pozadi      #e5e5e5
+ svetle fialova   #48418e
+ tmave fialova    #25133d
+
+ POUZITE PISMO
+ Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.obal {
+    width: 960px;
+    margin: 0 auto; 
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+ul{
+    display: flex;
+    margin-bottom: 0;
+    padding: 18px;
+    text-align: center;      
+}
+ul li{   
+    list-style-type: none; 
+}
+a{
+    text-decoration: none; 
+           
+}
+.nazev{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 40px;    
+    color:  #25133d;
+}
+li a {
+    margin: 18px;
+    padding: 18px;
+    color:  #25133d;
+}
+
+li a:hover{ 
+    color: white;
+    background-color: #48418e;
+    padding: 20px 36px;
+    text-decoration: none;
+    margin: 0; 
+}
+.baner{
+    position: relative;
+    min-height: 450px;
+    color: white;
+    background-image: url("images/pozadi.jpg");
+    background-size: 100%;
+}
+.baner h1{
+    position: absolute;
+    font-size: 90px;
+    font-weight: 400;
+    top: 30px;
+    left: 30px;
+    margin: 0;
+}
+.baner p {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    top:200px;
+    left: 30px;
+    margin: 0;
+    line-height: 1.3;
+}
+.odkaz {
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 30px;    
+}
+.odkaz a {
+    font-size: 20px;
+    padding: 15px 25px;
+    border: white solid 1px;
+    border-radius: 10px;
+    color: white;
+}
+.odkaz a:hover{    
+    background-color:  #48418e;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}
+.pravy{
+    margin-left: 20px;
+}
+
+.baner img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.obsah{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.text{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.text h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #48418e;
+    margin: 10px 0;
+}
+.text p{
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 30px
+}
+.text img{
+    max-width: 70px;
+}
+.paticka{
+    color: white;
+    text-align: center;
+    background-color: #48418e;  
+}
+.paticka p {
+    padding: 10px 0;
+    margin-top:0;
+}
