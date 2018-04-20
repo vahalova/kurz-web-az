@@ -1,0 +1,128 @@
+html { box-sizing: border-box; font-family: 'Rubik', sans-serif;}
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
+}
+
+.zbozi {
+    display: flex;
+    flex-direction: row;
+    width: 670px;
+    height: 440px;
+    margin:130px;
+}
+.vizual {
+    background: linear-gradient(#06d7c1,#50cc49);
+    color:white;
+    position: relative;
+    width: 335px;
+    border-radius: 15px 0px 0px 15px;
+    padding:30px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2); 
+}
+.slogan {
+    font-weight: 500;
+    margin-top: 30px;       
+}
+.bota {
+    position: absolute;
+    bottom: 5px;
+    left: -80px;    
+}
+.cenovka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.cena {
+    text-align: right;
+    font-weight: 500;
+    font-size: 28px;    
+}
+.zaruka {
+    font-size: 12px;  
+}
+.detaily {
+    background-color: white;
+    max-width: 335px;
+    flex-shrink: 0;    
+    border-radius:  0px 15px 15px 0px;
+    padding:30px;
+    position: relative;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2); 
+}
+.nazev {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.produkt {
+    color:#959595;
+    margin:10px 0 30px 0;
+}
+.popis {
+    border-bottom: solid #06d7c1 1px;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+.parametr {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.velikosti {
+    display: flex;    
+    padding: 0px;    
+    justify-content: space-between;   
+    font-size: 14px; 
+}
+li {
+    padding: 5px;    
+    list-style-type: none;
+    text-decoration: none;
+}
+.vybrana {
+    border-radius: 50%;
+    border:solid 1px;
+    border-color: #f15f42;
+    color: #f15f42;
+    font-weight: 500;
+}
+li a:hover { 
+    flex:0;
+    color: white;
+    background-color: #f15f42; 
+    border-radius: 50%;
+    padding: 5px;    
+    text-decoration: none;    
+}
+a {
+    color:black;
+    text-decoration: none;
+    padding: 5px;
+}
+.akce {
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 45px;    
+}
+.tlacitko {
+    background-color: #f15f42;
+    text-decoration: none;
+    color:white;
+    font-weight:500;
+    padding: 15px 30px;
+    border-radius: 7px;
+}
+.akce .tlacitko:hover {
+    background-color: #50cc49;
+    text-decoration: none;
+    color:white;
+    font-weight:500;
+    padding: 15px 30px;
+    border-radius: 7px;
+}
